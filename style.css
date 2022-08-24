@@ -1,0 +1,85 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ 
+ body{
+ background-color:hsl(185, 75%, 39%) ;
+ background-image: url(images/bg-pattern-top.svg),
+ url(images/bg-pattern-bottom.svg);
+ background-repeat: no-repeat, no-repeat;
+ background-position: right 48vw bottom 40vh, left 45vw top 44vh;
+font-family: 'Kumbh Sans', sans-serif;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ }
+ 
+ 
+ .container{
+    margin: auto;
+   max-width: 300px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 0 20px 0px rgba(241, 240, 240, 0.3)
+ }
+ h1{
+    padding: 1rem 0 0.6rem  0;
+    font-size: 1rem;
+    font-weight: 700;
+ }
+ h2{
+    font-size: 1rem;
+    font-weight: 700;
+ }
+ span{
+font-size: 0.9rem;
+font-weight: 400;
+    color: hsl(0, 0%, 59%);
+ }
+
+ p
+ {font-size: 0.8rem;
+   color: hsl(0, 0%, 59%); 
+ }
+ .image img{
+    width:100%;
+    border-radius: 5px 5px 0 0;
+}
+.person img{
+    position: absolute;
+    border-radius: 50%;
+    border: 6px solid white;
+    top: 18%;
+    left: 33%;
+}
+.text{
+    padding: 1.5rem 0;
+}
+
+ .price{
+    border-top: 1px solid hsl(0, 0%, 59%);;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+ }
+.price p{
+    letter-spacing: 0.1rem;
+}
+ .attribution {
+    margin-top: 20px;
+     font-size: 11px;
+     text-align: center;
+ }
+
+ .attribution a {
+     color: hsl(223, 64%, 98%);
+ }
